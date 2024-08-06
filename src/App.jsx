@@ -2,6 +2,7 @@ import { Box } from "@mui/material";
 import React from "react";
 import FormStepper from "./Component/FormStepper";
 import ShowDetail from "./Component/ShowDetail";
+import DragMenu from "./Component/DragMenu";
 
 const App = () => {
   return (
@@ -14,8 +15,9 @@ const App = () => {
           boxSizing: "border-box",
         }}
       >
-        <FormStepper />
-        <ShowDetail/>
+        {/* <FormStepper /> */}
+        {/* <ShowDetail/> */}
+        <DragMenu/>
       </Box>
     </>
   );
